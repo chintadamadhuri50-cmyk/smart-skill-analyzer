@@ -1,0 +1,164 @@
+[
+  {
+    "id": "fullstack",
+    "name": "Full Stack Developer",
+    "description": "Builds both frontend and backend of web applications. Works with HTML, CSS, JavaScript, React, Node.js, and databases.",
+    "avgSalary": "₹6–18 LPA",
+    "demandLevel": "Very High",
+    "requiredSkills": [
+      { "skill": "HTML/CSS",    "requiredLevel": "Advanced"     },
+      { "skill": "JavaScript",  "requiredLevel": "Advanced"     },
+      { "skill": "React",       "requiredLevel": "Intermediate" },
+      { "skill": "Node.js",     "requiredLevel": "Intermediate" },
+      { "skill": "SQL",         "requiredLevel": "Intermediate" },
+      { "skill": "Git",         "requiredLevel": "Intermediate" },
+      { "skill": "REST APIs",   "requiredLevel": "Intermediate" },
+      { "skill": "DSA",         "requiredLevel": "Intermediate" }
+    ],
+    "topRoles": ["Software Engineer", "Web Developer", "Full Stack Engineer", "Application Developer"],
+    "topCompanies": ["Google", "Amazon", "Flipkart", "Swiggy", "Razorpay", "Zoho"],
+    "roadmapPhases": ["HTML & CSS", "JavaScript", "React", "Node.js & Express", "Databases", "Deployment"]
+  },
+  {
+    "id": "frontend",
+    "name": "Frontend Developer",
+    "description": "Specializes in building user interfaces and user experiences using HTML, CSS, JavaScript, and modern frameworks like React.",
+    "avgSalary": "₹5–15 LPA",
+    "demandLevel": "High",
+    "requiredSkills": [
+      { "skill": "HTML/CSS",    "requiredLevel": "Advanced"     },
+      { "skill": "JavaScript",  "requiredLevel": "Advanced"     },
+      { "skill": "React",       "requiredLevel": "Advanced"     },
+      { "skill": "TypeScript",  "requiredLevel": "Intermediate" },
+      { "skill": "Git",         "requiredLevel": "Intermediate" },
+      { "skill": "Figma",       "requiredLevel": "Beginner"     }
+    ],
+    "topRoles": ["UI Developer", "React Developer", "Frontend Engineer", "Web Designer"],
+    "topCompanies": ["Adobe", "Atlassian", "Freshworks", "Meesho", "Zomato"],
+    "roadmapPhases": ["HTML & CSS", "JavaScript", "React", "TypeScript", "Testing", "Performance"]
+  },
+  {
+    "id": "backend",
+    "name": "Backend Developer",
+    "description": "Builds server-side logic, APIs, and databases. Works with Node.js, Python, Java, and cloud infrastructure.",
+    "avgSalary": "₹6–20 LPA",
+    "demandLevel": "Very High",
+    "requiredSkills": [
+      { "skill": "Node.js",     "requiredLevel": "Advanced"     },
+      { "skill": "Python",      "requiredLevel": "Intermediate" },
+      { "skill": "SQL",         "requiredLevel": "Advanced"     },
+      { "skill": "REST APIs",   "requiredLevel": "Advanced"     },
+      { "skill": "MongoDB",     "requiredLevel": "Intermediate" },
+      { "skill": "Git",         "requiredLevel": "Intermediate" },
+      { "skill": "DSA",         "requiredLevel": "Advanced"     }
+    ],
+    "topRoles": ["Backend Engineer", "API Developer", "Node.js Developer", "Python Developer"],
+    "topCompanies": ["Microsoft", "Oracle", "PayPal", "PhonePe", "CRED"],
+    "roadmapPhases": ["Programming Basics", "Node.js", "REST APIs", "Databases", "Authentication", "Cloud"]
+  },
+  {
+    "id": "datascience",
+    "name": "Data Scientist",
+    "description": "Analyzes large datasets to extract insights and build predictive models using statistics, Python, and machine learning.",
+    "avgSalary": "₹8–25 LPA",
+    "demandLevel": "High",
+    "requiredSkills": [
+      { "skill": "Python",          "requiredLevel": "Advanced"     },
+      { "skill": "SQL",             "requiredLevel": "Advanced"     },
+      { "skill": "Machine Learning","requiredLevel": "Advanced"     },
+      { "skill": "Data Analysis",   "requiredLevel": "Advanced"     },
+      { "skill": "Statistics",      "requiredLevel": "Advanced"     },
+      { "skill": "Git",             "requiredLevel": "Intermediate" }
+    ],
+    "topRoles": ["Data Scientist", "ML Engineer", "Research Scientist", "AI Analyst"],
+    "topCompanies": ["Amazon", "Walmart Labs", "Mu Sigma", "Fractal Analytics", "Quantiphi"],
+    "roadmapPhases": ["Python", "Statistics", "Pandas & NumPy", "Machine Learning", "Deep Learning", "MLOps"]
+  },
+  {
+    "id": "dataanalyst",
+    "name": "Data Analyst",
+    "description": "Collects, processes, and analyzes data to help organizations make informed business decisions.",
+    "avgSalary": "₹4–12 LPA",
+    "demandLevel": "High",
+    "requiredSkills": [
+      { "skill": "SQL",           "requiredLevel": "Advanced"     },
+      { "skill": "Python",        "requiredLevel": "Intermediate" },
+      { "skill": "Data Analysis", "requiredLevel": "Advanced"     },
+      { "skill": "Excel",         "requiredLevel": "Advanced"     },
+      { "skill": "Tableau/Power BI","requiredLevel": "Intermediate"}
+    ],
+    "topRoles": ["Data Analyst", "Business Analyst", "BI Analyst", "Reporting Analyst"],
+    "topCompanies": ["Deloitte", "KPMG", "Accenture", "TCS", "Infosys"],
+    "roadmapPhases": ["Excel", "SQL", "Python", "Data Visualization", "Statistics", "BI Tools"]
+  },
+  {
+    "id": "aiml",
+    "name": "AI / ML Engineer",
+    "description": "Designs and builds artificial intelligence and machine learning systems. Requires strong maths, Python, and ML frameworks.",
+    "avgSalary": "₹10–35 LPA",
+    "demandLevel": "Very High",
+    "requiredSkills": [
+      { "skill": "Python",          "requiredLevel": "Advanced"     },
+      { "skill": "Machine Learning","requiredLevel": "Advanced"     },
+      { "skill": "Mathematics",     "requiredLevel": "Advanced"     },
+      { "skill": "TensorFlow/PyTorch","requiredLevel": "Intermediate"},
+      { "skill": "SQL",             "requiredLevel": "Intermediate" },
+      { "skill": "Git",             "requiredLevel": "Intermediate" }
+    ],
+    "topRoles": ["ML Engineer", "AI Research Engineer", "Deep Learning Engineer", "NLP Engineer"],
+    "topCompanies": ["Google DeepMind", "OpenAI", "NVIDIA", "Samsung Research", "TCS Research"],
+    "roadmapPhases": ["Python", "Mathematics", "ML Algorithms", "Deep Learning", "NLP/CV", "MLOps"]
+  },
+  {
+    "id": "devops",
+    "name": "DevOps / Cloud Engineer",
+    "description": "Automates software delivery pipelines and manages cloud infrastructure for high availability and scalability.",
+    "avgSalary": "₹8–25 LPA",
+    "demandLevel": "Very High",
+    "requiredSkills": [
+      { "skill": "Linux",     "requiredLevel": "Advanced"     },
+      { "skill": "Docker",    "requiredLevel": "Advanced"     },
+      { "skill": "AWS",       "requiredLevel": "Advanced"     },
+      { "skill": "Git",       "requiredLevel": "Advanced"     },
+      { "skill": "Python",    "requiredLevel": "Intermediate" },
+      { "skill": "Networking","requiredLevel": "Intermediate" }
+    ],
+    "topRoles": ["DevOps Engineer", "Cloud Engineer", "SRE", "Infrastructure Engineer"],
+    "topCompanies": ["AWS", "Azure", "Google Cloud", "Infosys", "Wipro"],
+    "roadmapPhases": ["Linux", "Networking", "Git CI/CD", "Docker", "Kubernetes", "Cloud (AWS/GCP/Azure)"]
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity Analyst",
+    "description": "Protects systems and networks from cyber threats. Requires knowledge of networking, Linux, ethical hacking, and security tools.",
+    "avgSalary": "₹6–20 LPA",
+    "demandLevel": "High",
+    "requiredSkills": [
+      { "skill": "Networking",  "requiredLevel": "Advanced"     },
+      { "skill": "Linux",       "requiredLevel": "Advanced"     },
+      { "skill": "Python",      "requiredLevel": "Intermediate" },
+      { "skill": "Security Tools","requiredLevel": "Advanced"   },
+      { "skill": "Git",         "requiredLevel": "Beginner"     }
+    ],
+    "topRoles": ["Security Analyst", "Ethical Hacker", "Penetration Tester", "SOC Analyst"],
+    "topCompanies": ["Palo Alto Networks", "CrowdStrike", "IBM Security", "Wipro CyberSec", "HCL"],
+    "roadmapPhases": ["Networking Basics", "Linux", "Python Scripting", "Ethical Hacking", "OWASP", "Certifications"]
+  },
+  {
+    "id": "uiux",
+    "name": "UI/UX Designer",
+    "description": "Designs user interfaces and experiences for apps and websites. Combines visual design skills with user research.",
+    "avgSalary": "₹4–15 LPA",
+    "demandLevel": "Medium",
+    "requiredSkills": [
+      { "skill": "Figma",         "requiredLevel": "Advanced"     },
+      { "skill": "HTML/CSS",      "requiredLevel": "Intermediate" },
+      { "skill": "User Research",  "requiredLevel": "Intermediate" },
+      { "skill": "Prototyping",   "requiredLevel": "Advanced"     },
+      { "skill": "Adobe XD",      "requiredLevel": "Intermediate" }
+    ],
+    "topRoles": ["UI Designer", "UX Designer", "Product Designer", "Interaction Designer"],
+    "topCompanies": ["Swiggy", "Zomato", "Myntra", "BYJU's", "Nykaa"],
+    "roadmapPhases": ["Design Principles", "Figma", "User Research", "Wireframing", "Prototyping", "Usability Testing"]
+  }
+]

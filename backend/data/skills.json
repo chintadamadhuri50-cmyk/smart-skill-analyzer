@@ -1,0 +1,242 @@
+[
+  {
+    "id": "html-css",
+    "name": "HTML/CSS",
+    "category": "Web Development",
+    "description": "Markup and styling languages for building web pages.",
+    "levels": {
+      "Beginner":     "Knows basic tags, can create simple pages",
+      "Intermediate": "Uses Flexbox, Grid, responsive design, CSS variables",
+      "Advanced":     "Animations, accessibility, CSS architecture, BEM"
+    },
+    "resources": [
+      { "name": "MDN Web Docs",     "url": "https://developer.mozilla.org" },
+      { "name": "freeCodeCamp",     "url": "https://www.freecodecamp.org"  }
+    ],
+    "relatedCareers": ["fullstack", "frontend", "uiux"]
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Web Development",
+    "description": "The primary scripting language for web browsers and Node.js.",
+    "levels": {
+      "Beginner":     "Variables, loops, functions, DOM basics",
+      "Intermediate": "ES6+, Promises, async/await, closures",
+      "Advanced":     "Event loop, prototypes, design patterns, performance"
+    },
+    "resources": [
+      { "name": "javascript.info",  "url": "https://javascript.info"       },
+      { "name": "Eloquent JS",      "url": "https://eloquentjavascript.net" }
+    ],
+    "relatedCareers": ["fullstack", "frontend", "backend"]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Web Development",
+    "description": "A JavaScript library for building user interfaces.",
+    "levels": {
+      "Beginner":     "JSX, components, props, useState",
+      "Intermediate": "useEffect, context, React Router, custom hooks",
+      "Advanced":     "Performance optimization, Redux, testing, SSR"
+    },
+    "resources": [
+      { "name": "React Docs",       "url": "https://react.dev"             },
+      { "name": "Scrimba React",    "url": "https://scrimba.com/learn/learnreact" }
+    ],
+    "relatedCareers": ["fullstack", "frontend"]
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "JavaScript runtime for building server-side applications.",
+    "levels": {
+      "Beginner":     "HTTP module, file system, npm basics",
+      "Intermediate": "Express, REST APIs, middleware, authentication",
+      "Advanced":     "Streams, clustering, performance, microservices"
+    },
+    "resources": [
+      { "name": "Node.js Docs",     "url": "https://nodejs.org/docs"       },
+      { "name": "The Odin Project", "url": "https://www.theodinproject.com" }
+    ],
+    "relatedCareers": ["fullstack", "backend"]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "General Programming",
+    "description": "A versatile, beginner-friendly programming language widely used in AI/ML, data science, and web development.",
+    "levels": {
+      "Beginner":     "Syntax, data types, loops, functions",
+      "Intermediate": "OOP, file handling, libraries (NumPy, Pandas)",
+      "Advanced":     "Decorators, generators, concurrency, ML frameworks"
+    },
+    "resources": [
+      { "name": "Python.org",       "url": "https://python.org"            },
+      { "name": "Automate the Boring Stuff", "url": "https://automatetheboringstuff.com" }
+    ],
+    "relatedCareers": ["datascience", "dataanalyst", "aiml", "backend"]
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "Database",
+    "description": "Structured Query Language for managing relational databases.",
+    "levels": {
+      "Beginner":     "SELECT, INSERT, UPDATE, DELETE, WHERE",
+      "Intermediate": "JOINs, GROUP BY, subqueries, indexes",
+      "Advanced":     "Window functions, CTEs, query optimization, stored procedures"
+    },
+    "resources": [
+      { "name": "SQLZoo",           "url": "https://sqlzoo.net"            },
+      { "name": "Mode SQL Tutorial","url": "https://mode.com/sql-tutorial" }
+    ],
+    "relatedCareers": ["fullstack", "backend", "datascience", "dataanalyst"]
+  },
+  {
+    "id": "git",
+    "name": "Git/GitHub",
+    "category": "Tools",
+    "description": "Version control system for tracking code changes and collaborating with teams.",
+    "levels": {
+      "Beginner":     "init, add, commit, push, pull",
+      "Intermediate": "Branching, merging, pull requests, rebasing",
+      "Advanced":     "Git hooks, cherry-pick, reflog, monorepos"
+    },
+    "resources": [
+      { "name": "Pro Git Book",     "url": "https://git-scm.com/book"      },
+      { "name": "GitHub Docs",      "url": "https://docs.github.com"       }
+    ],
+    "relatedCareers": ["fullstack", "frontend", "backend", "devops"]
+  },
+  {
+    "id": "dsa",
+    "name": "Data Structures & Algorithms",
+    "category": "Computer Science",
+    "description": "Fundamental CS concepts for solving problems efficiently — essential for coding interviews.",
+    "levels": {
+      "Beginner":     "Arrays, strings, basic sorting, linear search",
+      "Intermediate": "Trees, graphs, hash maps, binary search, recursion",
+      "Advanced":     "Dynamic programming, graph algorithms, system design"
+    },
+    "resources": [
+      { "name": "NeetCode",         "url": "https://neetcode.io"           },
+      { "name": "LeetCode",         "url": "https://leetcode.com"          }
+    ],
+    "relatedCareers": ["fullstack", "backend", "datascience", "aiml"]
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "Platform for building, shipping, and running applications in containers.",
+    "levels": {
+      "Beginner":     "Dockerfile, docker run, docker pull",
+      "Intermediate": "Docker Compose, volumes, networking, images",
+      "Advanced":     "Multi-stage builds, Kubernetes, CI/CD integration"
+    },
+    "resources": [
+      { "name": "Docker Docs",      "url": "https://docs.docker.com"       },
+      { "name": "Play with Docker", "url": "https://labs.play-with-docker.com" }
+    ],
+    "relatedCareers": ["devops", "backend"]
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "Cloud",
+    "description": "Amazon Web Services — the world's leading cloud platform.",
+    "levels": {
+      "Beginner":     "EC2, S3, IAM basics",
+      "Intermediate": "Lambda, RDS, VPC, CloudFront",
+      "Advanced":     "EKS, CDK, multi-region architecture, cost optimization"
+    },
+    "resources": [
+      { "name": "AWS Free Tier",    "url": "https://aws.amazon.com/free"   },
+      { "name": "AWS Skill Builder","url": "https://skillbuilder.aws"       }
+    ],
+    "relatedCareers": ["devops", "backend"]
+  },
+  {
+    "id": "machine-learning",
+    "name": "Machine Learning",
+    "category": "AI / ML",
+    "description": "Building systems that learn from data to make predictions or decisions.",
+    "levels": {
+      "Beginner":     "Linear regression, classification, scikit-learn basics",
+      "Intermediate": "Neural networks, feature engineering, model evaluation",
+      "Advanced":     "Deep learning, transformers, MLOps, model deployment"
+    },
+    "resources": [
+      { "name": "fast.ai",          "url": "https://www.fast.ai"           },
+      { "name": "Google ML Crash Course", "url": "https://developers.google.com/machine-learning/crash-course" }
+    ],
+    "relatedCareers": ["aiml", "datascience"]
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Web Development",
+    "description": "A strongly typed superset of JavaScript that compiles to plain JavaScript.",
+    "levels": {
+      "Beginner":     "Types, interfaces, basic generics",
+      "Intermediate": "Union types, utility types, decorators",
+      "Advanced":     "Advanced generics, type inference, compiler options"
+    },
+    "resources": [
+      { "name": "TypeScript Docs",  "url": "https://www.typescriptlang.org/docs" },
+      { "name": "Total TypeScript", "url": "https://www.totaltypescript.com" }
+    ],
+    "relatedCareers": ["fullstack", "frontend", "backend"]
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "A NoSQL document database that stores data in flexible JSON-like documents.",
+    "levels": {
+      "Beginner":     "CRUD operations, collections, documents",
+      "Intermediate": "Aggregation pipeline, indexes, Mongoose ODM",
+      "Advanced":     "Sharding, replication, performance tuning"
+    },
+    "resources": [
+      { "name": "MongoDB Docs",     "url": "https://www.mongodb.com/docs"  },
+      { "name": "MongoDB University","url": "https://learn.mongodb.com"    }
+    ],
+    "relatedCareers": ["fullstack", "backend"]
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "Operating Systems",
+    "description": "The dominant OS in servers and cloud environments.",
+    "levels": {
+      "Beginner":     "Basic commands, file system, permissions",
+      "Intermediate": "Shell scripting, processes, networking commands",
+      "Advanced":     "Kernel internals, systemd, performance tuning"
+    },
+    "resources": [
+      { "name": "Linux Journey",    "url": "https://linuxjourney.com"      },
+      { "name": "The Linux Command Line", "url": "https://linuxcommand.org" }
+    ],
+    "relatedCareers": ["devops", "cybersecurity", "backend"]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "Design",
+    "description": "A collaborative interface design tool used for UI/UX design and prototyping.",
+    "levels": {
+      "Beginner":     "Frames, shapes, text, basic components",
+      "Intermediate": "Auto-layout, variants, prototyping, design systems",
+      "Advanced":     "Advanced animations, plugins, handoff, accessibility"
+    },
+    "resources": [
+      { "name": "Figma Learn",      "url": "https://help.figma.com/hc/en-us/categories/360002051613" },
+      { "name": "Figma Community",  "url": "https://www.figma.com/community" }
+    ],
+    "relatedCareers": ["uiux", "frontend"]
+  }
+]

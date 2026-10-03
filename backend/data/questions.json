@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "skill": "JavaScript",
+    "difficulty": "Beginner",
+    "question": "What does `typeof null` return in JavaScript?",
+    "options": ["null", "undefined", "object", "string"],
+    "answer": 2,
+    "explanation": "This is a known quirk of JavaScript. `typeof null` returns 'object' even though null is not an object."
+  },
+  {
+    "id": 2,
+    "skill": "JavaScript",
+    "difficulty": "Beginner",
+    "question": "Which method is used to add an element to the end of an array?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": 0,
+    "explanation": "push() adds one or more elements to the end of an array and returns the new length."
+  },
+  {
+    "id": 3,
+    "skill": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "Which of the following correctly creates a Promise that resolves with the value 42?",
+    "options": ["Promise.resolve(42)", "new Promise(42)", "Promise(42)", "Promise.create(42)"],
+    "answer": 0,
+    "explanation": "Promise.resolve(42) creates a Promise object that is resolved with the given value."
+  },
+  {
+    "id": 4,
+    "skill": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What is the output of: console.log(typeof function(){})?",
+    "options": ["object", "function", "undefined", "callable"],
+    "answer": 1,
+    "explanation": "Functions in JavaScript return 'function' when checked with typeof."
+  },
+  {
+    "id": 5,
+    "skill": "JavaScript",
+    "difficulty": "Advanced",
+    "question": "What is the output of: console.log(0.1 + 0.2 === 0.3)?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "answer": 1,
+    "explanation": "Due to floating point precision issues, 0.1 + 0.2 equals 0.30000000000000004, not exactly 0.3."
+  },
+  {
+    "id": 6,
+    "skill": "JavaScript",
+    "difficulty": "Advanced",
+    "question": "What does the `bind()` method do in JavaScript?",
+    "options": [
+      "Calls a function immediately",
+      "Returns a new function with a fixed `this` value",
+      "Merges two objects",
+      "Creates a shallow copy of an array"
+    ],
+    "answer": 1,
+    "explanation": "bind() creates a new function that, when called, has its `this` keyword set to the provided value."
+  },
+  {
+    "id": 7,
+    "skill": "Python",
+    "difficulty": "Beginner",
+    "question": "What is the output of: print(type([]))?",
+    "options": ["<class 'list'>", "<class 'array'>", "<class 'tuple'>", "<class 'dict'>"],
+    "answer": 0,
+    "explanation": "[] creates a list in Python. type([]) returns <class 'list'>."
+  },
+  {
+    "id": 8,
+    "skill": "Python",
+    "difficulty": "Beginner",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["func", "define", "def", "function"],
+    "answer": 2,
+    "explanation": "In Python, the `def` keyword is used to define a function."
+  },
+  {
+    "id": 9,
+    "skill": "Python",
+    "difficulty": "Intermediate",
+    "question": "Which decorator is used to define a static method in Python?",
+    "options": ["@classmethod", "@staticmethod", "@property", "@abstractmethod"],
+    "answer": 1,
+    "explanation": "@staticmethod defines a method that doesn't receive an implicit first argument (no self or cls)."
+  },
+  {
+    "id": 10,
+    "skill": "Python",
+    "difficulty": "Intermediate",
+    "question": "What is a list comprehension in Python?",
+    "options": [
+      "A way to compress lists into smaller sizes",
+      "A concise way to create lists using a single line of code",
+      "A method to sort lists",
+      "A function to merge two lists"
+    ],
+    "answer": 1,
+    "explanation": "List comprehensions provide a concise way to create lists: [x*2 for x in range(5)]"
+  },
+  {
+    "id": 11,
+    "skill": "Python",
+    "difficulty": "Advanced",
+    "question": "What does the `__slots__` attribute do in a Python class?",
+    "options": [
+      "Prevents adding new attributes",
+      "Restricts memory by pre-defining attributes",
+      "Creates class-level slots for methods",
+      "Enables operator overloading"
+    ],
+    "answer": 1,
+    "explanation": "__slots__ restricts the attributes a class can have, saving memory by avoiding per-instance __dict__."
+  },
+  {
+    "id": 12,
+    "skill": "SQL",
+    "difficulty": "Beginner",
+    "question": "Which SQL clause is used to filter rows after grouping?",
+    "options": ["WHERE", "HAVING", "FILTER", "GROUP BY"],
+    "answer": 1,
+    "explanation": "HAVING is used to filter groups after GROUP BY, whereas WHERE filters rows before grouping."
+  },
+  {
+    "id": 13,
+    "skill": "SQL",
+    "difficulty": "Beginner",
+    "question": "Which SQL command is used to retrieve data from a table?",
+    "options": ["GET", "FETCH", "SELECT", "RETRIEVE"],
+    "answer": 2,
+    "explanation": "SELECT is the standard SQL command for querying and retrieving data from a database table."
+  },
+  {
+    "id": 14,
+    "skill": "SQL",
+    "difficulty": "Intermediate",
+    "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+    "options": [
+      "No difference",
+      "INNER JOIN returns only matching rows; LEFT JOIN also returns unmatched rows from the left table",
+      "LEFT JOIN is faster",
+      "INNER JOIN returns all rows from both tables"
+    ],
+    "answer": 1,
+    "explanation": "INNER JOIN returns only matching rows. LEFT JOIN returns all rows from the left table plus matching rows from the right."
+  },
+  {
+    "id": 15,
+    "skill": "SQL",
+    "difficulty": "Advanced",
+    "question": "What does a window function do in SQL?",
+    "options": [
+      "Creates a new database window",
+      "Performs calculations across a set of rows related to the current row without collapsing them",
+      "Splits a query into multiple windows",
+      "Limits the number of rows returned"
+    ],
+    "answer": 1,
+    "explanation": "Window functions like ROW_NUMBER(), RANK(), and LAG() operate on a set of rows related to the current row."
+  },
+  {
+    "id": 16,
+    "skill": "DSA",
+    "difficulty": "Beginner",
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+    "answer": 1,
+    "explanation": "Binary search halves the search space each iteration, giving O(log n) time complexity."
+  },
+  {
+    "id": 17,
+    "skill": "DSA",
+    "difficulty": "Beginner",
+    "question": "Which data structure uses LIFO (Last In, First Out) order?",
+    "options": ["Queue", "Stack", "Deque", "Linked List"],
+    "answer": 1,
+    "explanation": "A Stack follows LIFO — the last element pushed is the first one popped."
+  },
+  {
+    "id": 18,
+    "skill": "DSA",
+    "difficulty": "Intermediate",
+    "question": "What is the time complexity of inserting into a Hash Map on average?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+    "answer": 2,
+    "explanation": "Hash Map insertions are O(1) on average due to direct index computation via hashing."
+  },
+  {
+    "id": 19,
+    "skill": "DSA",
+    "difficulty": "Intermediate",
+    "question": "Which traversal visits nodes in: Left → Root → Right order?",
+    "options": ["Pre-order", "Post-order", "In-order", "Level-order"],
+    "answer": 2,
+    "explanation": "In-order traversal visits Left subtree, then Root, then Right subtree — giving sorted output for BSTs."
+  },
+  {
+    "id": 20,
+    "skill": "DSA",
+    "difficulty": "Advanced",
+    "question": "What is the worst-case time complexity of QuickSort?",
+    "options": ["O(n log n)", "O(n)", "O(n²)", "O(log n)"],
+    "answer": 2,
+    "explanation": "QuickSort degrades to O(n²) when the pivot is always the smallest or largest element (already sorted array)."
+  },
+  {
+    "id": 21,
+    "skill": "Git",
+    "difficulty": "Beginner",
+    "question": "Which command stages all changed files for a commit?",
+    "options": ["git commit -a", "git add .", "git push", "git stage all"],
+    "answer": 1,
+    "explanation": "git add . stages all modified and new files in the current directory for the next commit."
+  },
+  {
+    "id": 22,
+    "skill": "Git",
+    "difficulty": "Beginner",
+    "question": "Which command shows the current status of your working directory?",
+    "options": ["git log", "git diff", "git status", "git show"],
+    "answer": 2,
+    "explanation": "git status shows which files are staged, unstaged, or untracked."
+  },
+  {
+    "id": 23,
+    "skill": "Git",
+    "difficulty": "Intermediate",
+    "question": "What does `git rebase` do?",
+    "options": [
+      "Merges two branches with a merge commit",
+      "Moves or combines commits onto a new base commit",
+      "Reverts the last commit",
+      "Deletes a remote branch"
+    ],
+    "answer": 1,
+    "explanation": "git rebase replays commits from one branch on top of another, creating a cleaner linear history."
+  },
+  {
+    "id": 24,
+    "skill": "Git",
+    "difficulty": "Advanced",
+    "question": "What is the difference between `git merge` and `git rebase`?",
+    "options": [
+      "They are identical",
+      "merge creates a merge commit preserving history; rebase rewrites history for a linear log",
+      "rebase is only for remote branches",
+      "merge deletes the source branch"
+    ],
+    "answer": 1,
+    "explanation": "merge preserves the full history with a merge commit. rebase rewrites commits for a cleaner, linear history."
+  },
+  {
+    "id": 25,
+    "skill": "Web Dev",
+    "difficulty": "Beginner",
+    "question": "Which CSS property makes an element a flex container?",
+    "options": ["display: grid", "display: flex", "position: flex", "layout: flex"],
+    "answer": 1,
+    "explanation": "display: flex turns an element into a flex container, enabling flexbox layout for its children."
+  },
+  {
+    "id": 26,
+    "skill": "Web Dev",
+    "difficulty": "Beginner",
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Tech Modern Language",
+      "Hyper Transfer Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": 0,
+    "explanation": "HTML stands for HyperText Markup Language — the standard language for creating web pages."
+  },
+  {
+    "id": 27,
+    "skill": "Web Dev",
+    "difficulty": "Intermediate",
+    "question": "What does the `useEffect` hook do in React?",
+    "options": [
+      "Manages component state",
+      "Runs side effects after render",
+      "Memoizes expensive computations",
+      "Creates context"
+    ],
+    "answer": 1,
+    "explanation": "useEffect runs after every render by default and is used for side effects like API calls, subscriptions, and DOM mutations."
+  },
+  {
+    "id": 28,
+    "skill": "Web Dev",
+    "difficulty": "Intermediate",
+    "question": "What is the virtual DOM in React?",
+    "options": [
+      "A browser feature",
+      "A lightweight copy of the real DOM that React uses to optimize updates",
+      "A server-side rendering technique",
+      "A CSS styling method"
+    ],
+    "answer": 1,
+    "explanation": "React keeps a virtual DOM in memory and only updates the real DOM when changes are detected — improving performance."
+  },
+  {
+    "id": 29,
+    "skill": "Web Dev",
+    "difficulty": "Advanced",
+    "question": "What is the purpose of React.memo()?",
+    "options": [
+      "Stores values in memory",
+      "Prevents a component from re-rendering if its props haven't changed",
+      "Creates a memoized callback function",
+      "Caches API responses"
+    ],
+    "answer": 1,
+    "explanation": "React.memo() wraps a component and skips re-rendering if the props are the same as the previous render."
+  },
+  {
+    "id": 30,
+    "skill": "Web Dev",
+    "difficulty": "Advanced",
+    "question": "What is CORS and why is it important?",
+    "options": [
+      "A CSS framework for responsive design",
+      "A security mechanism that restricts cross-origin HTTP requests from browsers",
+      "A JavaScript bundler",
+      "A type of database query"
+    ],
+    "answer": 1,
+    "explanation": "CORS (Cross-Origin Resource Sharing) is a browser security feature that controls which origins can access your API."
+  }
+]
